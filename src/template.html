@@ -3,8 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather App</title>
   </head>
 
-  <body></body>
+  <body>
+    <header>Weather App</header>
+    <main>
+      <form id="city-form">
+        <label for="city">Choose your city</label>
+        <input type="text" name="city" id="city" />
+        <button>Go!</button>
+      </form>
+      <div>
+        <h2 class="city-name">London</h2>
+        <img
+          id="icon"
+          src="http://openweathermap.org/img/wn/04n@2x.png
+        "
+          alt="weather-icon"
+        />
+        <h3 id="weather">cloudy</h3>
+        <p class="weather-desc">broken cloudy</p>
+        <div class="temperatures">
+          <span>Temp °C</span>
+          <p class="temp">25</p>
+          <span>min temp °C</span>
+          <p class="min-temp">23</p>
+          <span>max temp °C</span>
+          <p class="max-temp">27</p>
+        </div>
+      </div>
+    </main>
+    <footer>Made by alonso-dev</footer>
+  </body>
 </html>
